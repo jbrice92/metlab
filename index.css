@@ -1,0 +1,45 @@
+
+header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10%;
+  background-image: -o-linear-gradient(#F5F5F5);
+  opacity: 86%;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #22235F;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px, 20px;
+  justify-content: space-between;
+  color: #22235F;
+}
+a,button {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 50px;
+  color: #F5F5F5;
+}
+button{
+  background-color: #22235F;
+  padding: 9px, 25px;
+  border-radius: 8px;
+  transition: all 0.4s ease 0s;
+}
+a {
+  color: #22235F;
+}
+img {
+  width: 100%;
+  height: 350px;
+}
